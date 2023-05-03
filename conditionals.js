@@ -23,22 +23,4 @@ if (temperature < 0) {
 
 console.log("Now you're ready to go outside!");
 
-//Logical operators
-//example 1
-const isCitizen = true;
-const age = 26;
-
-if (isCitizen && age > 18) {
-  console.log("You are eligible to vote.");
-}
-
-//example 2
-if (temperature < -40 || temperature > 40) {
-    console.log("Maybe going outside isn't such a great idea…");
-  }
-
-//example 3 if not raining, ! operator reverses the value 
-if (!raining) {
-    console.log("Leave your umbrella at home!");
-  }
 
